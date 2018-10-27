@@ -1,0 +1,44 @@
+body {
+  background: #c75c60;
+  color: #ffede6;
+  text-align: center;
+}
+
+a {
+  color: #c75c60;
+}
+
+a:hover {
+  color: #c75c60;
+}
+
+.card {
+  margin: auto;
+}
+
+.countdown {
+  font-size: 36px;
+  color: #c75c60;
+}
+
+.btn {
+  background: #fec9b8;
+  color: #c75c60;
+}
+
+.btn:hover {
+  background: #c75c60;
+  border-color: #c75c60;
+  color: #ffede6;
+}
+
+footer {
+    position: fixed;
+    height: 32px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #fec9b8;
+    color: #c75c60;
+    text-align: center;
+}

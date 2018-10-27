@@ -3,7 +3,9 @@
 let pomIntervalId
 
 function notifyUser() {
-  alert('timer is done!')
+  new Audio('./clock-ringing.mp3').play()
+    .then(()=>{alert('timer is done!')})
+
 }
 
 function resetTimer() {
@@ -38,7 +40,7 @@ function startTimer(durationInSeconds) {
 
 $(() => {
   $('#five').on('click', () => {
-    startTimer(300)
+    startTimer(2)
   })
   $('#fifteen').on('click', () => {
     startTimer(900)

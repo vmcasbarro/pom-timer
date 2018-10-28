@@ -41,7 +41,7 @@ function startTimer(durationInSeconds) {
 
 $(() => {
   $('#five').on('click', () => {
-    startTimer(2)
+    startTimer(300)
   })
   $('#fifteen').on('click', () => {
     startTimer(900)

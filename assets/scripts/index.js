@@ -1,11 +1,12 @@
 'use strict'
 
 let pomIntervalId
+const alarm = new Audio('./clock-ringing.mp3')
 
 function notifyUser() {
-  new Audio('./clock-ringing.mp3').play()
+  // const alarm = new Audio('./clock-ringing.mp3')
+  alarm.play()
     .then(()=>{alert('timer is done!')})
-
 }
 
 function resetTimer() {
@@ -40,7 +41,7 @@ function startTimer(durationInSeconds) {
 
 $(() => {
   $('#five').on('click', () => {
-    startTimer(300)
+    startTimer(2)
   })
   $('#fifteen').on('click', () => {
     startTimer(900)
